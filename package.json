@@ -1,0 +1,26 @@
+{
+  "name": "my-first-setup",
+  "version": "1.0.0",
+  "description": "This is just for setuping my first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"src/**/*.+(js|md|ts|css|less|yaml|yam|json|tsx|jsx)\" -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subrato31/mysetup-prettier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subrato31/mysetup-prettier/issues"
+  },
+  "homepage": "https://github.com/subrato31/mysetup-prettier#readme",
+  "author": "Subrato Pattanaik",
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.2.1"
+  }
+}
